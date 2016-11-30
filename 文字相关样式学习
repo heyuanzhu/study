@@ -1,0 +1,4 @@
+文字大小写转换:
+  h1 {text-transform:uppercase}
+  h2 {text-transform:capitalize}
+  p {text-transform:lowercase}
