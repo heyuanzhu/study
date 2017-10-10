@@ -1,0 +1,24 @@
+function jump_top(){   
+  var u = navigator.userAgent;  
+  var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端  
+  var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端  
+  var winH = $(window).height();
+  if(isAndroid && winH == 532){   //带虚拟按键机型
+    /*
+    $('.list-wrap').css({
+      'top': '8rem'
+    });
+
+    $('.tips').css({
+      'top':'15rem'
+    });
+
+    $('.tips .nba').css({
+      'width':'10.75rem'
+    });
+    */
+    /*$("body").css("height",document.body.scrollHeight); */ 			
+  };  
+}  
+
+jump_top();
